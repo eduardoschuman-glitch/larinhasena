@@ -150,7 +150,7 @@
 
     // preload slideshow images
     var pre = ['assets/bg/01.jpg','assets/bg/02.jpg','assets/bg/03.jpg','assets/bg/04.jpg',
-      'assets/clinica/1.png','assets/clinica/2.jpg','assets/clinica/3.jpg','assets/clinica/4.jpg','assets/clinica/5.jpg'];
+      'assets/clinica/1.jpg','assets/clinica/2.jpg','assets/clinica/3.jpg','assets/clinica/4.jpg','assets/clinica/5.jpg'];
     pre.forEach(function (src) { var im = new Image(); im.src = src; });
 
     slideshow('#hero-bg .hero-slide', 5000);
